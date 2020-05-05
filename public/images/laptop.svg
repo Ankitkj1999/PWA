@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ aria-hidden="true"
+ focusable="false"
+ data-prefix="fas"
+ data-icon="laptop-code"
+ role="img">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="laptop.svg">
+   <path class="fil0" d="M5039 11869c177,177 464,177 642,0l321 -321c177,-178 177,-465 0,-642l-1014 -1013 1013 -1014c178,-177 178,-465 0,-642l-321 -321c-177,-177 -464,-177 -642,0l-1655 1655c-177,178 -177,465 0,642l1656 1656zm2724 -321l320 321c178,177 465,177 643,0l1655 -1655c177,-178 177,-465 0,-642l-1655 -1656c-178,-177 -465,-177 -643,0l-320 321c-178,178 -178,465 0,642l1013 1014 -1013 1013c-178,177 -178,465 0,642zm7744 4700l-6879 0c-21,562 -417,908 -929,908l-1725 0c-530,0 -937,-496 -930,-908l-6787 0c-250,0 -454,204 -454,454l0 454c0,998 817,1816 1816,1816l14526 0c999,0 1816,-818 1816,-1816l0 -454c0,-250 -204,-454 -454,-454zm-1362 -10441c0,-749 -613,-1362 -1362,-1362l-11802 0c-749,0 -1362,613 -1362,1362l0 9533 14526 0 0 -9533zm-1816 7717l-10895 0 0 -7263 10895 0 0 7263z"/>
+  </g>
+ </g>
+</svg>

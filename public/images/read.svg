@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ aria-hidden="true"
+ focusable="false"
+ data-prefix="fas"
+ data-icon="book-reader"
+ role="img">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="read.svg">
+   <path class="fil0" d="M15303 8642c0,-2020 -1637,-3658 -3657,-3658 -2020,0 -3657,1638 -3657,3658 0,2020 1637,3657 3657,3657 2020,0 3657,-1637 3657,-3657zm-4511 5528c-2260,-1384 -5921,-1764 -7764,-1869 -619,-35 -1135,437 -1135,1032l0 8488c0,546 441,1002 1009,1031 1663,87 5029,407 7355,1578 356,180 780,-65 780,-452l0 -9372c-1,-178 -89,-341 -245,-436zm9472 -1869c-1842,104 -5504,485 -7764,1869 -156,95 -244,265 -244,443l0 9364c0,388 424,633 782,453 2326,-1170 5689,-1490 7352,-1577 568,-30 1009,-485 1009,-1031l0 -8489c0,-595 -516,-1067 -1135,-1032z"/>
+  </g>
+ </g>
+</svg>

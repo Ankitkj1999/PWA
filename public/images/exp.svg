@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ aria-hidden="true"
+ focusable="false"
+ data-prefix="fas"
+ data-icon="briefcase"
+ role="img">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="briefcase-solid.svg">
+   <path class="fil0" d="M13097 16291c0,291 -235,527 -526,527l-3159 0c-291,0 -527,-236 -527,-527l0 -1579 -6318 0 0 4739c0,842 737,1579 1580,1579l13689 0c842,0 1579,-737 1579,-1579l0 -4739 -6318 0 0 1579zm4739 -6844l-2633 0 0 -1580c0,-842 -737,-1579 -1579,-1579l-5265 0c-843,0 -1580,737 -1580,1579l0 1580 -2632 0c-843,0 -1580,737 -1580,1579l0 2633 16848 0 0 -2633c0,-842 -737,-1579 -1579,-1579zm-4739 0l-4212 0 0 -1053 4212 0 0 1053z"/>
+  </g>
+ </g>
+</svg>

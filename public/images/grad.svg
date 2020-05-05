@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ aria-hidden="true"
+ focusable="false"
+ data-prefix="fas"
+ data-icon="graduation-cap"
+ role="img">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="grad.svg">
+   <path class="fil0" d="M21770 6396l-9755 -2997c-532,-163 -1105,-163 -1637,0l-9755 2997c-824,253 -824,1342 0,1595l1700 522c-373,461 -602,1024 -625,1640 -337,193 -574,542 -574,958 0,377 199,694 485,897l-893 4017c-78,350 188,681 546,681l1962 0c358,0 624,-331 547,-681l-893 -4017c286,-203 484,-520 484,-897 0,-405 -226,-744 -547,-940 26,-525 295,-990 723,-1284l6840 2101c317,97 925,219 1637,0l9755 -2997c824,-253 824,-1342 0,-1595l0 0zm-9427 5662c-997,306 -1848,137 -2294,0l-5071 -1558 -496 3968c0,1236 3006,2238 6715,2238 3708,0 6714,-1002 6714,-2238l-496 -3968 -5072 1558 0 0z"/>
+  </g>
+ </g>
+</svg>

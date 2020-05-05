@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ aria-hidden="true"
+ focusable="false"
+ data-prefix="fas"
+ data-icon="book-open"
+ role="img">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="book.svg">
+   <path class="fil0" d="M21927 4043c-2279,129 -6809,600 -9605,2312 -193,118 -303,328 -303,548l0 15133c0,481 525,784 968,561 2878,-1448 7039,-1843 9096,-1951 703,-37 1249,-600 1249,-1275l0 -14051c0,-737 -638,-1320 -1405,-1277zm-11541 2312c-2796,-1712 -7326,-2182 -9605,-2312 -766,-43 -1405,540 -1405,1277l0 14051c0,676 546,1239 1249,1275 2058,109 6221,504 9098,1953 442,223 966,-81 966,-560l0 -15144c0,-220 -109,-422 -303,-540l0 0z"/>
+  </g>
+ </g>
+</svg>
