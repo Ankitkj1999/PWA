@@ -4,6 +4,17 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ /*---spritz--*/
+ #bookmarklet {
+    
+  background: rgb(52, 56, 248);
+  color:white;
+  text-decoration:none;
+  padding:.8em;
+  border-radius:20px;
+}
+
+/*---quotes--*/
  #quot
  {
   padding: 10px;
