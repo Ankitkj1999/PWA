@@ -459,3 +459,4 @@ const renderCertification = ( data, id) => {
 };
 
 Certification.innerHTML += html; 
+

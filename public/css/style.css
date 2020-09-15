@@ -4,6 +4,32 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+
+/*challenges*/
+.cod{
+  line-height:-16px;font-size:15px; background-color:rgb(241, 247, 255); padding-left:45px; padding-top:10px;padding-bottom: 10px;border-radius:10px;
+}
+
+.challenge{
+  background-color:#3e64ff; padding:0.2%;border-radius:8px;padding-right:5px;padding-left:10px;margin-left:10px
+}
+
+/*---Removes the scrollbar but the functionality is there---*/
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
  /*---spritz--*/
  #bookmarklet {
     
