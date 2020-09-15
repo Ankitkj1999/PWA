@@ -285,7 +285,71 @@
                               Size&nbsp;of&nbsp;float:&nbsp;4&nbsp;bytes<br/>
                               Size&nbsp;of&nbsp;double:&nbsp;8&nbsp;bytes</blockquote></div>
             
+                              <h2 class="mb-3 mt-5">6. Swap Numbers (Using Temporary Variable)</h2>
+                              <div class="cod">
+                                <blockquote><font color="#339900">#include&nbsp;&lt;iostream&gt;</font><br/>
+                                  <font color="#0000ff">using</font>&nbsp;<font color="#0000ff">namespace</font>&nbsp;std<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  <font color="#0000ff">int</font>&nbsp;main<font color="#008000">&#40;</font><font color="#008000">&#41;</font><br/>
+                                  <font color="#008000">&#123;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">int</font>&nbsp;a&nbsp;<font color="#000080">=</font>&nbsp;<font color="#0000dd">5</font>,&nbsp;b&nbsp;<font color="#000080">=</font>&nbsp;<font color="#0000dd">10</font>,&nbsp;temp<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;Before&nbsp;swapping.&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;a&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;a&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;,&nbsp;b&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;b&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;temp&nbsp;<font color="#000080">=</font>&nbsp;a<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;<font color="#000080">=</font>&nbsp;b<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;<font color="#000080">=</font>&nbsp;temp<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;<font color="#000099">\n</font>After&nbsp;swapping.&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;a&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;a&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;,&nbsp;b&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;b&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">return</font>&nbsp;<font color="#0000dd">0</font><font color="#008080">;</font><br/>
+                                  <font color="#008000">&#125;</font></blockquote>
+                              </div>
+                              <br>
+                              <p>Output</p>
+                              <div class="cod">
+                                <blockquote>Before&nbsp;swapping.<br/>
+                                  a&nbsp;=&nbsp;5,&nbsp;b&nbsp;=&nbsp;10<br/>
+                                  &nbsp;<br/>
+                                  After&nbsp;swapping.<br/>
+                                  a&nbsp;=&nbsp;10,&nbsp;b&nbsp;=&nbsp;5</blockquote>
+                              </div>
 
+                              <h2 class="mb-3 mt-5">7. Swap Nubmbers Without Using Temporary Variable</h2>
+                              <div class="cod">
+                                <blockquote><font color="#339900">#include&nbsp;&lt;iostream&gt;</font><br/>
+                                  <font color="#0000ff">using</font>&nbsp;<font color="#0000ff">namespace</font>&nbsp;std<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  <font color="#0000ff">int</font>&nbsp;main<font color="#008000">&#40;</font><font color="#008000">&#41;</font><br/>
+                                  <font color="#008000">&#123;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">int</font>&nbsp;a&nbsp;<font color="#000080">=</font>&nbsp;<font color="#0000dd">5</font>,&nbsp;b&nbsp;<font color="#000080">=</font>&nbsp;<font color="#0000dd">10</font><font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;Before&nbsp;swapping.&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;a&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;a&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;,&nbsp;b&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;b&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;<font color="#000080">=</font>&nbsp;a&nbsp;<font color="#000040">+</font>&nbsp;b<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;<font color="#000080">=</font>&nbsp;a&nbsp;<font color="#000040">-</font>&nbsp;b<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;<font color="#000080">=</font>&nbsp;a&nbsp;<font color="#000040">-</font>&nbsp;b<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;<font color="#000099">\n</font>After&nbsp;swapping.&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000dd">cout</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;a&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;a&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;<font color="#FF0000">&quot;,&nbsp;b&nbsp;=&nbsp;&quot;</font>&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;b&nbsp;<font color="#000080">&lt;&lt;</font>&nbsp;endl<font color="#008080">;</font><br/>
+                                  &nbsp;<br/>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000ff">return</font>&nbsp;<font color="#0000dd">0</font><font color="#008080">;</font><br/>
+                                  <font color="#008000">&#125;</font></blockquote>
+                              </div>
+                              <br>
+                              <p>Output</p>
+                              <div class="cod">
+                                <blockquote>int&nbsp;a&nbsp;=&nbsp;5,&nbsp;b&nbsp;=&nbsp;10;<br/>
+                                  &nbsp;<br/>
+                                  //&nbsp;using&nbsp;multiplication&nbsp;and&nbsp;division&nbsp;for&nbsp;swapping<br/>
+                                  a&nbsp;=&nbsp;a&nbsp;*&nbsp;b;<br/>
+                                  b&nbsp;=&nbsp;a&nbsp;/&nbsp;b;<br/>
+                                  a&nbsp;=&nbsp;a&nbsp;/&nbsp;b;</blockquote>
+                              </div>
 
 
 
