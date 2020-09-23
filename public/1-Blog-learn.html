@@ -85,7 +85,7 @@
     <link rel='shortcut icon' type='image/x-icon' href='images/icon.png' />
 
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="blogOne">
 	  <!--disable right click-->
     <script>document.oncontextmenu = new Function("return false;");</script>
 	  
@@ -449,13 +449,34 @@
               </div></div>
               <div class="desc">
                 <h3>Ankit Kumar</h3>
-                <p>Larning should be an ever going process for every one. Well  it is but unconciously, if only we become concious about it will be beneficial in greater ways. On that note, this article will be ever growing. And don't forget to give remarks! </p>
+                <p>Learning should be an ever going process for every one. Well  it is but unconciously, if only we become concious about it will be beneficial in greater ways. On that note, this article will be ever growing. And don't forget to give remarks! </p>
                  
               </div>
             </div>
 <!--comment box-->
     <br>
-<div class="comment-form-wrap pt-5">
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = https://ankit-kumar-cv.web.app/1-Blog-learn.html;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://ankit-kumar-cv.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+<!-- <div class="comment-form-wrap pt-5">
   <div class="p-5 bg-light">
   <h3 class="mb-5">Leave a comment</h3>
   <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
@@ -494,8 +515,8 @@
   </form>
 </div>
 <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-</div>
-<div class="pt-5 mt-5">
+</div> -->
+<!-- <div class="pt-5 mt-5">
   <h3 class="mb-5">6 Comments</h3>
   <ul class="comment-list">
     <li class="comment">
@@ -577,9 +598,8 @@
       </div>
     </li>
   </ul>
-  <!-- END comment-list -->
 
-</div>
+</div> -->
 
           </div>  <!-- .col-md-8 -->
           <div class="col-lg-4 sidebar ftco-animate">

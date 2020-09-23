@@ -5,7 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+/* 
+ div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
 
+} */
 
 /*challenges*/
 .cod{

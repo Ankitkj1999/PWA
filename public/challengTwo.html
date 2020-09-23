@@ -86,7 +86,7 @@
     <link rel='shortcut icon' type='image/x-icon' href='images/icon.png' />
 
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" >
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="challengeTwo" >
     <!--disable right click-->
     <script>document.oncontextmenu = new Function("return false;");</script>
 	  
@@ -253,8 +253,27 @@
             </div>
             <br>
 <!--comment box-->
-    
-<div class="comment-form-wrap pt-5">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = https://ankit-kumar-cv.web.app/challengTwo.html;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = challengeTwo; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://ankit-kumar-cv.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<!-- <div class="comment-form-wrap pt-5">
   <div class="p-5 bg-light">
   <h3 class="mb-5">Leave a comment</h3>
   <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
@@ -292,8 +311,8 @@
   </form>
 </div>
 <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-</div>
-<div class="pt-5 mt-5">
+</div> -->
+<!-- <div class="pt-5 mt-5">
   <h3 class="mb-5">6 Comments</h3>
   <ul class="comment-list">
     <li class="comment">
@@ -375,13 +394,13 @@
       </div>
     </li>
   </ul>
-  <!-- END comment-list -->
 
-</div>
+
+</div> -->
 
           </div>  <!-- .col-md-8 -->
           <div class="col-lg-4 sidebar ftco-animate">
-            <div class="sidebar-box">
+            <!-- <div class="sidebar-box">
               <form action="#" class="search-form">
                 <div class="form-group">
                   <span class="icon icon-search"></span>
@@ -397,7 +416,7 @@
                 <li><a href="#">New Tech <span>(37)</span></a></li>
                 <li><a href="#">Tips & Tricks <span>(42)</span></a></li>
               </ul>
-            </div>
+            </div> -->
 
            
             <div class="sidebar-box ftco-animate">
@@ -437,7 +456,7 @@
                 </div>
               </div>
             </div>
-            <div class="sidebar-box ftco-animate">
+            <!-- <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Tag Cloud</h3>
               <div class="tagcloud">
                 <a href="#" class="tag-cloud-link">Self-Development</a>
@@ -446,12 +465,12 @@
                 <a href="#" class="tag-cloud-link">To-Do</a>
                 
               </div>
-            </div>
-            <div id="content-desktop">
+            </div> -->
+            <!-- <div id="content-desktop">
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Paragraph</h3>
               <p>"What should every computer science major know?" I have tried to compile a suitable answer here.</p>
-            </div></div>
+            </div></div> -->
           </div>
 
         </div>
