@@ -26,7 +26,7 @@
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="1024">
 <meta name="theme-color" content="#3e64ff">
-    <title>Ankit Kumar || Challenge Two</title>
+    <title>Ankit Kumar || Search</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -84,43 +84,40 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel='shortcut icon' type='image/x-icon' href='images/icon.png' />
-
-    
     <style>
-        
-        
-
-        
-      #myUL {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        border-radius: 3%;
-      }
-      
-      #myUL li a {
-        border: 1px solid #ddd;
-        margin-top: -1px; /* Prevent double borders */
-        background-color: #f6f6f6;
-        text-align: left;
-        padding: 12px;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-decoration: none;
-        font-size: 18px;
-        color: black;
-        display: block;
-        border-radius: 10px;
-        margin-bottom: 3px;
-      }
-      
-      #myUL li a:hover:not(.header) {
-        background-color: rgb(238, 238, 238);
-      }
-    </style>
-
+        #myUL {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          border-radius: 3%;
+          margin-left: 7vw;
+          margin-right: 7vw;
+          
+        }
+  
+        #myUL li a {
+          border: 1px solid #ddd;
+          margin-top: -1px; /* Prevent double borders */
+          background-color: #f6f6f6;
+          text-align: left;
+          padding: 12px;
+          margin-left: 5%;
+          margin-right: 5%;
+          text-decoration: none;
+          font-size: 18px;
+          color: black;
+          display: block;
+          border-radius: 10px;
+          margin-bottom: 3px;
+          
+        }
+  
+        #myUL li a:hover:not(.header) {
+          background-color: rgb(238, 238, 238);
+        }
+      </style>
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="challengeTwo" >
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="challengeOne" >
     <!--disable right click-->
     <script>document.oncontextmenu = new Function("return false;");</script>
 	  
@@ -145,42 +142,51 @@
 	      </div>
 	    </div>
 	  </nav>
-	  <div class="hero-wrap js-fullheight">
-      <div class="overlay" style="height: 1000px;"></div>
+	  <div class="hero-wrap js-fullheight" >
+      <div class="overlay" style="height: 70%;"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
           <div class="col-lg-10 ftco-animate d-flex align-items-center">
           	<div class="text text-center">
               <h1 class="mb-3 bread">Search </h1>
-              <div class="sidebar-box">
-                <form action="#" class="search-form">
-                  <div class="form-group">
-                    <span class="icon icon-search"></span>
-                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." class="form-control" title="Type in a name">
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Search<i class="ion-ios-arrow-forward"></i></span></p>
+                <div class="sidebar-box">
+                    <form action="#" class="search-form">
+                      <div class="form-group">
+                        <span class="icon icon-search"></span>
+                        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." class="form-control" title="Type in a name">
+                      </div>
+                    </form>
                   </div>
-                </form>
-              </div>
-              <p onclick="sortList()" style="color:black; cursor:pointer;text-align:left;margin-left: 6%;"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-              </svg>Sort</p>
-            
-        <ul id="myUL">
-            <li><a href="#">Adele</a></li>
-            <li><a href="#">Agnes</a></li>
-            <li><a href="#">Calvin</a></li>
-            <li><a href="#">Christina</a></li>
-            <li><a href="#">Cindy</a></li>
-            <li><a href="#">Billy</a></li>
-            <li><a href="#">Bob</a></li>
-          
-            
-          </ul>
+                  
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <section style="margin-top: -15%;">
+        <div class="container">
+            <p onclick="sortList()" style="color:black; cursor:pointer;text-align:left;margin-left: 10vw;"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>Sort</p>
+
+            <ul id="myUL">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog 1 | Learning How To Learn | Summary From Coursera</a></li>
+                <li><a href="#">Blog 2 | Self Development Roadmap For CSE| IT</a></li>
+                <li><a href="#">Blog 3 | Must Know Things For Computer Science</a></li>
+              
+                
+              </ul>
+        </div>
+    </section>
+	
         <!--  -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="margin: 0; position: fixed;
         top: 50%;
@@ -191,10 +197,10 @@
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="main_nav">
-          
+
           <ul class="navbar-nav">
              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" style="color: white;"> More </a>
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" style="color: rgb(31, 30, 30);"> More </a>
               <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#"> Second level 1 </a></li>
               <li><a class="dropdown-item" href="#"> Second level 2 &raquo </a>
@@ -216,10 +222,10 @@
               </ul>
           </li>
           </ul>
-          
+
           </div> <!-- navbar-collapse.// -->
           </nav>
-        
+
           <style>
             @media (min-width: 992px){
               .dropdown-menu .dropdown-toggle:after{
@@ -248,67 +254,9 @@
               }
             }
           </style>
-        <!--  -->
-
-
-        <script>
-            function sortList() {
-              var list, i, switching, b, shouldSwitch;
-              list = document.getElementById("myUL");
-              switching = true;
-              /* Make a loop that will continue until
-              no switching has been done: */
-              while (switching) {
-                // start by saying: no switching is done:
-                switching = false;
-                b = list.getElementsByTagName("LI");
-                // Loop through all list-items:
-                for (i = 0; i < (b.length - 1); i++) {
-                  // start by saying there should be no switching:
-                  shouldSwitch = false;
-                  /* check if the next item should
-                  switch place with the current item: */
-                  if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
-                    /* if next item is alphabetically
-                    lower than current item, mark as a switch
-                    and break the loop: */
-                    shouldSwitch = true;
-                    break;
-                  }
-                }
-                if (shouldSwitch) {
-                  /* If a switch has been marked, make the switch
-                  and mark the switch as done: */
-                  b[i].parentNode.insertBefore(b[i + 1], b[i]);
-                  switching = true;
-                }
-              }
-            }
-            </script>
-        
-        
-       
-        
-        <script>
-        function myFunction() {
-            var input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById("myInput");
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName("li");
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-        }
-        </script>
-
-
+      <!--footer-->
+	<br>
+	<br>
     <footer class="ftco-footer ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -383,6 +331,63 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script>
+    function sortList() {
+      var list, i, switching, b, shouldSwitch;
+      list = document.getElementById("myUL");
+      switching = true;
+      /* Make a loop that will continue until
+      no switching has been done: */
+      while (switching) {
+        // start by saying: no switching is done:
+        switching = false;
+        b = list.getElementsByTagName("LI");
+        // Loop through all list-items:
+        for (i = 0; i < (b.length - 1); i++) {
+          // start by saying there should be no switching:
+          shouldSwitch = false;
+          /* check if the next item should
+          switch place with the current item: */
+          if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+            /* if next item is alphabetically
+            lower than current item, mark as a switch
+            and break the loop: */
+            shouldSwitch = true;
+            break;
+          }
+        }
+        if (shouldSwitch) {
+          /* If a switch has been marked, make the switch
+          and mark the switch as done: */
+          b[i].parentNode.insertBefore(b[i + 1], b[i]);
+          switching = true;
+        }
+      }
+    }
+    </script>
+
+
+
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 
   <script src="js/jquery.min.js"></script>
