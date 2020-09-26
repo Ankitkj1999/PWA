@@ -5,13 +5,98 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-/* 
+/*zoom*/
+.zoom {
+  transition: transform .1s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+#zoom{
+  transition: transform .1s;
+}
+#zoom:hover{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+/* Roation animation */
+.roto {
+ 
+ 
+}
+
+.roto:hover{
+  animation: roto 2.5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes roto {
+  100% {transform: rotate(360deg);}
+}
+
+
+/* Ball bounce animation */
+/*Ball*/
+
+.ball { 
+			
+  animation: bounce 1.9s; 
+  animation-direction: alternate; 
+  animation-timing-function: cubic-bezier(5, 5, 5, 5); 
+  animation-iteration-count: infinite; 
+} 
+
+
+@keyframes bounce { 
+  from { 
+    transform: translate3d(0, 0, 0); 
+  } 
+  to { 
+    transform: translate3d(0, 10px, 0); 
+  } 
+} 
+/* Prefix Support */ 
+
+.ball { 
+  -webkit-animation-name: bounce; 
+  -webkit-animation-duration: 1.5s; 
+  -webkit-animation-direction: alternate; 
+  -webkit-animation-timing-function: cubic-bezier( 
+  5,5,5,5); 
+  -webkit-animation-iteration-count: infinite; 
+} 
+
+@-webkit-keyframes bounce { 
+  from { 
+    -webkit-transform: translate3d(0, 0, 0); 
+    transform: translate3d(0, 0, 0); 
+  } 
+  to { 
+    -webkit-transform: translate3d(0, 10px, 0); 
+    transform: translate3d(0, 10px, 0); 
+  } 
+} 
+
+ 
+ #wht:hover h3 {
+  color: white;
+} /* hover white */
+ 
+ #wht:hover p {
+   color: white;
+ }
+/* sticky */
  div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 10%;
 
-} */
+}
 
 /*challenges*/
 .cod{
@@ -5348,10 +5433,10 @@ a.close.disabled {
   background: no-repeat 50% / 100% 100%; }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); }
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); }
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); }
 
 .carousel-indicators {
   position: absolute;
@@ -5381,7 +5466,7 @@ a.close.disabled {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: rgb(56, 56, 56);
     background-clip: padding-box;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
