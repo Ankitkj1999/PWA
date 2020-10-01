@@ -11,9 +11,9 @@
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 #zoom{
   transition: transform .1s;
@@ -38,6 +38,34 @@
 @keyframes roto {
   100% {transform: rotate(360deg);}
 }
+
+/* rotate scale */
+.rotate-scale-up {
+  animation: rotate-scale-up  6s infinite linear alternate-reverse both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(.75);
+  }
+  20% {
+    transform: scale(.78);
+  }
+  40% {
+    transform: scale(.8);
+  }
+  60% {
+    transform: scale(.85);
+  }
+  80% {
+    transform: scale(.88);
+  }
+  100% {
+    transform: scale(.90) rotateZ(30);
+  }
+} 
+
+
 
 
 /* Ball bounce animation */
@@ -9628,11 +9656,11 @@ textarea.form-control {
     .contact-section .box {
       margin-bottom: 30px; } }
   .contact-section .box .icon {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     background: #3e64ff;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
