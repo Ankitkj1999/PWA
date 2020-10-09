@@ -5,6 +5,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+/* cardo */
+	.cardo{
+			-webkit-box-shadow: 11px 13px 26px -4px rgba(0,0,0,0.34);
+			-moz-box-shadow: 11px 13px 26px -4px rgba(0,0,0,0.34);
+			box-shadow: 11px 13px 26px -4px rgba(0,0,0,0.34);
+		  transition: ease all 0.66s;
+		}
+		.cardo:hover{
+			transform: scale(0.95);
+		}
+		
+
+
 /*zoom*/
 .zoom {
   transition: transform .1s;
@@ -138,7 +151,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
   margin-right: 3px;
 }
 
@@ -8656,7 +8669,9 @@ h1, h2, h3, h4, h5,
     content: '';
    
     width: 50%;
-    background: #acbafd; }
+    background: #acbafd; 
+  
+  }
     @keyframes example {
       0%   {left:-1500px;}
     }
@@ -8669,6 +8684,7 @@ h1, h2, h3, h4, h5,
   .hero-wrap .text {
     width: 100%; }
 
+    
 .slider-text .subheading {
   text-transform: uppercase;
   font-size: 16px;
